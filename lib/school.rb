@@ -1,6 +1,5 @@
 class School
-  #has an empty roster when initalized
-  ROSTER = []
+  attr_accessor :roster
 
   def initialize(school_name)
     @school_name = school_name
